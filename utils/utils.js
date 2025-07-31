@@ -1,4 +1,4 @@
-const { initInstance, getEnv } = require('utils/qlApi.js')
+const { initInstance, getEnv } = require('./utils/qlApi.js')
 const axios = require('axios')
 
 const host = 'https://ikuuu.org'
