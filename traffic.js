@@ -1,3 +1,10 @@
+'''
+const $ = new Env('IkUUU VPN签到')
+cron: 10 1 * * *
+创建 IKUUU_EMAIL 和 IKUUU_PWD 变量，多个邮箱或密码请换行。
+
+'''
+
 const { getCookie, getTraffic, getEmailAndPwdList } = require('./utils')
 const notify = require('./sendNotify');
 
