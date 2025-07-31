@@ -1,3 +1,19 @@
+'''
+new Env('飞猫云盘签到')
+cron: 0 1 * * *
+fm_token： 飞猫盘APP内登录账号后抓包fmpapi.feimaoyun.com域名下的任意请求中token，无root可以尝试模拟器抓包
+fm_pto： 同上请求中的pto
+fm_pto： 同上请求中的par
+PUSHPLUS_TOKEN（可选）： pushplus的token，可以在官网个人中心获取
+
+├── p.txt               密钥
+├── pfile.txt           RSA公钥文件
+├── sfile.txt           RSA私钥文件
+├── requirements.txt    依赖文件
+├── fm.py             主程序
+
+'''
+
 import base64
 import hashlib
 import random
