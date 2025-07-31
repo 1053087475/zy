@@ -1,5 +1,5 @@
 '''
-new Env('飞猫云盘签到')
+const $ = new Env('快手极速版')
 cron: 0 1 * * *
 fm_token： 飞猫盘APP内登录账号后抓包fmpapi.feimaoyun.com域名下的任意请求中token，无root可以尝试模拟器抓包
 fm_pto： 同上请求中的pto
