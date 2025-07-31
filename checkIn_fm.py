@@ -47,9 +47,9 @@ class Utils:
     def __init__(self):
         self.bits = 2048
         self.key_pair = RSA.generate(self.bits)
-        self.pfile = self.read_file("pfile.txt")
-        self.sfile = self.read_file("sfile.txt")
-        self.p = self.read_file("p.txt")
+        self.pfile = self.read_file("utils/pfile.txt")
+        self.sfile = self.read_file("utils/sfile.txt")
+        self.p = self.read_file("utils/p.txt")
         self.ak = self.genak()
         self.ed = self.re(self.ak, self.pfile)
         # self.pto = self.re(self.ak, self.p)
