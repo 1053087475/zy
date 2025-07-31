@@ -5,7 +5,7 @@ cron: 10 1 * * *
 
 */
 
-const { getCookie, getTraffic, getEmailAndPwdList } = require('utils/utils')
+const { getCookie, getTraffic, getEmailAndPwdList } = require('./utils')
 const notify = require('utils/sendNotify');
 
 async function run() {
