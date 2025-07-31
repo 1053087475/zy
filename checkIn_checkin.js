@@ -6,8 +6,8 @@ cron: 10 1 * * *
 */
 
 const axios = require('axios')
-const { getCookie, getTraffic, getEmailAndPwdList } = require('./utils')
-const notify = require('utils/sendNotify')
+const { getCookie, getTraffic, getEmailAndPwdList } = require('./utils/utils')
+const notify = require('./utils/sendNotify')
 
 const host = 'https://ikuuu.org'
 const checkinURL = host + '/user/checkin'
