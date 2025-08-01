@@ -19,8 +19,8 @@ const axios = require('axios');
 const path = require('path');
 
 // 引入工具模块
-const CommonUtils = require('../utils/common');
-const NotifyManager = require('../utils/notify');
+const CommonUtils = require('./utils/common');
+const NotifyManager = require('./utils/notify');
 
 class SmzdmCheckin {
     constructor() {
