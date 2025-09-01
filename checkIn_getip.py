@@ -1,6 +1,8 @@
 # -*- coding: UTF-8 -*-
 # Version: v1.0
 # Created by lstcml on 2022/05/28
+# cron: 0 0,6 * * *
+# const $ = new Env("获取公网IP地址");
 
 import os
 import re
@@ -75,4 +77,5 @@ if __name__ == '__main__':
             send(datetime.datetime.now().strftime("%Y.%m.%d") + " 设备公网IP地址", content)
     else:
         content = '获取设备公网IP地址失败！'
+
     #print(content)
