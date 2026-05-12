@@ -1,6 +1,6 @@
 const axios = require('axios')
-const { getTraffic, getCookieList } = require('./utils')
-const notify = require('./sendNotify')
+const { getTraffic, getCookieList } = require('./utils/utils')
+const notify = require('./utils/sendNotify')
 
 const host = 'https://ikuuu.org'
 const checkinURL = host + '/user/checkin'

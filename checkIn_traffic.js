@@ -1,5 +1,5 @@
-const { getTraffic, getCookieList } = require('./utils')
-const notify = require('./sendNotify');
+const { getTraffic, getCookieList } = require('./utils/utils')
+const notify = require('./utils/sendNotify');
 
 async function run() {
   const cookieList = await getCookieList()
